@@ -3,15 +3,15 @@
 # （部署时 `cf deploy` 会保留机密，但会丢弃未写入配置的普通文本变量）。
 
 # --- 必填 ---
-BETTER_AUTH_SECRET=your-secret-key-run-openssl-rand-hex-32
-BETTER_AUTH_URL=http://localhost:3000
+BETTER_AUTH_SECRET=095be630a8e6c4a5d6e5d8da1ef5f0435fc2e841832dee62baf1bdba9b3d4638
+BETTER_AUTH_URL=http://blog.19870310.xyz
 GITHUB_CLIENT_ID=your-github-client-id
 GITHUB_CLIENT_SECRET=your-github-client-secret
-DOMAIN=blog.example.com
+DOMAIN=blog.19870310.xyz
 
 # 仅本地开发使用。设为 dev 时不会真正发信，验证链接打在控制台。
 # 生产环境不要设置，或设为 prod。
-ENVIRONMENT=dev
+ENVIRONMENT=prod
 
 # --- 可选：Umami ---
 # 客户端埋点还需要构建时变量 VITE_UMAMI_WEBSITE_ID，website id 两边填同一个。
